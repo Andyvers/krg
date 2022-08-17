@@ -32,7 +32,8 @@ async def send_message(channel_id: int, text: str):
                 mems.append(item.title)
                 await send_message(CHANNEL_ID, item.url)
 
-       loop = asyncio.get_event_loop)               loop.run_until_complete(main())
+       loop = asyncio.get_event_loop)
+       loop.run_until_complete(main())
 
 
 
